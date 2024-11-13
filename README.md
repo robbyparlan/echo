@@ -1,4 +1,4 @@
-# SIP Project
+# ECHO Project
 
 Ini adalah proyek yang menggunakan [Echo Framework](https://echo.labstack.com/) di Go, dengan prinsip-prinsip SOLID, autentikasi JWT, validasi permintaan, dan komunikasi antar-mikroservis dengan gRPC.
 
@@ -11,9 +11,6 @@ Ini adalah proyek yang menggunakan [Echo Framework](https://echo.labstack.com/) 
 - [gRPC Communication](#grpc-communication)
 - [Getting Started](#getting-started)
 - [Requirements](#requirements)
-- [Installation](#installation)
-- [Usage](#usage)
-- [Folder Structure](#folder-structure)
 
 ## Overview
 
