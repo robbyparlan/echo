@@ -10,6 +10,8 @@ Ini adalah proyek yang menggunakan [Echo Framework](https://echo.labstack.com/) 
 - [Request Validator](#request-validator)
 - [Object Relation Mapping](#object-relation-mapping)
 - [gRPC Communication](#grpc-communication)
+- [Logging (soon)](#logging)
+- [Role Base Access Control (soon)](#role-base-access-control)
 - [Getting Started](#getting-started)
 - [Requirements](#requirements)
 

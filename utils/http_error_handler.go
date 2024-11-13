@@ -14,5 +14,6 @@ func HTTPErrorHandler(err error, c echo.Context) {
 	if !ok {
 		report = echo.NewHTTPError(http.StatusInternalServerError, err.Error())
 	}
+	c.Logger().Error(report)
 	c.JSON(report.Code, CustomResponse{Status: report.Code, Message: report.Error(), Data: nil})
 }

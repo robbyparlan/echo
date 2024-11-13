@@ -10,11 +10,13 @@ import (
 )
 
 const (
-	API_VERSION              = "/api/v1"
-	MESSAGE_SUCCESS          = "Success"
-	MESSAGE_VALIDATION_ERROR = "Validation failed"
-	PAYMENT_STATUS_PAID      = "PAID"
-	PAYMENT_STATUS_PENDING   = "PENDING"
+	API_VERSION               = "/api/v1"
+	MESSAGE_SUCCESS           = "Success"
+	MESSAGE_TOO_MANY_REQUESTS = "Too many requests, rate limit exceeded!"
+	MESSAGE_FORBIDDEN         = "Error while extracting identifier"
+	MESSAGE_VALIDATION_ERROR  = "Validation failed"
+	PAYMENT_STATUS_PAID       = "PAID"
+	PAYMENT_STATUS_PENDING    = "PENDING"
 )
 
 var (
