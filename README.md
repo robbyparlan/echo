@@ -1,6 +1,6 @@
 # ECHO Microservice Project
 
-Ini adalah proyek yang menggunakan [Echo Framework](https://echo.labstack.com/) di Go, dengan prinsip-prinsip SOLID, autentikasi JWT, validasi permintaan, dan komunikasi antar-mikroservis dengan gRPC.
+Ini adalah proyek yang menggunakan [Echo Framework](https://echo.labstack.com/) di Go, dengan prinsip-prinsip SOLID
 
 ## Table of Contents
 - [Overview](#overview)
