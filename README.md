@@ -8,6 +8,7 @@ Ini adalah proyek yang menggunakan [Echo Framework](https://echo.labstack.com/) 
 - [Arsitektur SOLID](#arsitektur-solid)
 - [JWT Authentication](#jwt-authentication)
 - [Request Validator](#request-validator)
+- [Object Relation Mapping](#orm)
 - [gRPC Communication](#grpc-communication)
 - [Getting Started](#getting-started)
 - [Requirements](#requirements)
@@ -46,6 +47,13 @@ Fitur autentikasi JWT digunakan untuk melindungi endpoint yang sensitif. Hanya p
 Proyek ini menggunakan [go-playground/validator](https://github.com/go-playground/validator) untuk validasi input data. Validator ini memastikan bahwa data yang masuk sesuai dengan aturan yang telah ditentukan, sehingga dapat mengurangi kesalahan dari data yang tidak valid.
 
 - **Penggunaan `ctx.Validate`**: Semua request diproses dengan `ctx.Validate` untuk memeriksa data sebelum masuk ke layer service.
+
+## Object Relation Mapping
+
+Proyek ini menggunakan [GORM](https://gorm.io/) sebagai Object-Relational Mapping (ORM) untuk mengelola interaksi dengan database PostgreSQL. GORM memudahkan penanganan operasi database seperti CRUD (Create, Read, Update, Delete) serta mendukung relasi antara model data, migrasi, dan query yang kompleks.
+
+- **Auto Migrate**: Automasi migrasi table
+- **Seed**: Automasi migrasi data table refrensi
 
 ## gRPC Communication
 
